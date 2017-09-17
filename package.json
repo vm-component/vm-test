@@ -1,14 +1,16 @@
 {
   "name": "vm-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "for practive",
   "main": "src/index.js",
   "scripts": {
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
+    "prettier": "prettier --write --no-semi {src,test}/**/*.ts",
     "test": "npm run test",
     "precommit": "lint-staged",
-    "prepush": "npm run lint",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "prepush": "npm run prettier && npm run lint",
+    "release": "standard-version"
   },
   "lint-staged": {
     "{src,test}/**/*.ts": [
@@ -42,6 +44,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^4.2.1",
     "prettier": "^1.7.0",
+    "standard-version": "^4.2.0",
     "tslint": "^5.7.0",
     "tslint-config-prettier": "^1.5.0",
     "tslint-config-standard": "^6.0.1",
