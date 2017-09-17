@@ -4,7 +4,7 @@ export default {
 }
 
 function abc() {
-  var a = 1
+  let a = 1
   if (a > 0) {
     return 12
   }
