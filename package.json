@@ -1,6 +1,6 @@
 {
   "name": "vm-test",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "for practive",
   "main": "src/index.js",
   "scripts": {
@@ -19,9 +19,6 @@
     ]
   },
   "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    },
     "validate-commit-msg": {
       "types": "conventional-commit-types",
       "helpMessage": "Use \"npm run commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
