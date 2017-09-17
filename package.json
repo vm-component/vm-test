@@ -7,7 +7,7 @@
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "test": "npm run test",
     "precommit": "lint-staged",
-    "prepush": "npm run test:prod && npm run build",
+    "prepush": "npm run lint",
     "commitmsg": "validate-commit-msg"
   },
   "lint-staged": {
