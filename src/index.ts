@@ -4,7 +4,8 @@ export default {
 }
 
 function abc() {
-  if (1 > 0) {
+  var a = 1
+  if (a > 0) {
     return 12
   }
 }
