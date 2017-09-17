@@ -1,0 +1,51 @@
+{
+  "name": "vm-test",
+  "version": "1.0.0",
+  "description": "for practive",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
+    "test": "npm run test",
+    "precommit": "lint-staged",
+    "prepush": "npm run test:prod && npm run build",
+    "commitmsg": "validate-commit-msg"
+  },
+  "lint-staged": {
+    "{src,test}/**/*.ts": [
+      "prettier --write --no-semi",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": "conventional-commit-types",
+      "helpMessage": "Use \"npm run commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vm-component/vm-test.git"
+  },
+  "keywords": [
+    "\\"
+  ],
+  "author": "Hsiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vm-component/vm-test/issues"
+  },
+  "homepage": "https://github.com/vm-component/vm-test#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.1",
+    "prettier": "^1.7.0",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.5.2",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
