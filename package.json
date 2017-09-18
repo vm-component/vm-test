@@ -12,6 +12,7 @@
     "prepush": "npm run prettier && npm run lint",
     "push-tags-publish": "git push --follow-tags origin master; npm publish",
     "release": "standard-version",
+    "npm-publish": "npm publish",
     "github-release": "node build/github-release.js"
   },
   "lint-staged": {

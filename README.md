@@ -16,6 +16,7 @@ add a file
 - commit test 1620
 - commit test 1620
 - commit test 1621
+- commit test 1726 feat
 
 
 ## 任务说明:
@@ -30,3 +31,10 @@ add a file
 
 - 根据最新的记录叠加版本
 -
+
+#### npm-publish
+
+- 前置任务: lint/test/build
+- 发布当前版本到npm
+
+#### 为任务画网状图!
