@@ -17,6 +17,7 @@ add a file
 - commit test 1620
 - commit test 1621
 - commit test 1726 feat
+- commit test 1727 fix
 
 
 ## 任务说明:
