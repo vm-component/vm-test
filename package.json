@@ -8,7 +8,6 @@
     "prettier": "prettier --write --no-semi {src,test}/**/*.ts",
     "test": "npm run test",
     "precommit": "lint-staged",
-    "commitmsg": "validate-commit-msg",
     "prepush": "npm run prettier && npm run lint",
     "push-tags-publish": "git push --follow-tags origin master; npm publish",
     "release": "standard-version",

@@ -22,6 +22,19 @@ add a file
 
 ## 任务说明:
 
+#### lint
+
+- 代码检查, 自动修复
+
+#### prettier
+
+- 风格检查
+
+#### build
+
+- 构建打包
+
+
 #### github-release
 
 - 将当前的版本发布到GitHub上, 并根据以往commit的记录生成release记录
@@ -37,5 +50,15 @@ add a file
 
 - 前置任务: lint/test/build
 - 发布当前版本到npm
+
+#### precommit
+
+- commit前做的事项
+
+#### commitmsg
+
+- commit前检查commit格式信息
+
+
 
 #### 为任务画网状图!
