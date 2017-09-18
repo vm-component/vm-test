@@ -59,5 +59,7 @@ typings/
 
 .idea
 
+auth.js
 
+auth/
 
