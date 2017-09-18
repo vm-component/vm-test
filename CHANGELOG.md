@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/vm-component/vm-test/compare/v1.1.2...v1.2.0) (2017-09-18)
+
+
+### Features
+
+* delete package.json of vm-add ([f16ed15](https://github.com/vm-component/vm-test/commit/f16ed15))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/vm-component/vm-test/compare/v1.0.2...v1.1.2) (2017-09-18)
 
