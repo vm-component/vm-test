@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/vm-component/vm-test/compare/v1.2.0...v1.2.1) (2017-09-18)
+
+
+### Bug Fixes
+
+* add package.json of some desc ([6bbcfac](https://github.com/vm-component/vm-test/commit/6bbcfac))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/vm-component/vm-test/compare/v1.1.2...v1.2.0) (2017-09-18)
 
