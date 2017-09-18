@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.10.0"></a>
+# [1.10.0](https://github.com/vm-component/vm-test/compare/v1.9.0...v1.10.0) (2017-09-18)
+
+
+### Features
+
+* 1726 feat ([2dcad51](https://github.com/vm-component/vm-test/commit/2dcad51))
+* 1727 fix ([9ade7e2](https://github.com/vm-component/vm-test/commit/9ade7e2))
+
+
+
 <a name="1.9.0"></a>
 # [1.9.0](https://github.com/vm-component/vm-test/compare/v1.8.0...v1.9.0) (2017-09-18)
 
