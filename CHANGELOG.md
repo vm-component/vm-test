@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/vm-component/vm-test/compare/v1.3.0...v1.4.0) (2017-09-18)
+
+
+### Features
+
+* add 1602 ([9f2ca5a](https://github.com/vm-component/vm-test/commit/9f2ca5a))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/vm-component/vm-test/compare/v1.2.4...v1.3.0) (2017-09-18)
 
